@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson14HW">
         <activity
+            android:name=".Task7"
+            android:exported="false" />
+        <activity
+            android:name=".Task6"
+            android:exported="false" />
+        <activity
+            android:name=".Task345"
+            android:exported="false" />
+        <activity
+            android:name=".Task2"
+            android:exported="false" />
+        <activity
+            android:name=".Task1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
