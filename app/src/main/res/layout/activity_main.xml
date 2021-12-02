@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/task1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:onClick="task1"
+        android:text="Task1" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/task2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="task2"
+        android:text="Task2" />
+
+    <Button
+        android:id="@+id/task3_4_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="task345"
+        android:text="Task3_4_5" />
+
+    <Button
+        android:id="@+id/task6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="task6"
+        android:text="Task6" />
+
+    <Button
+        android:id="@+id/task7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="task7"
+        android:text="Task7" />
+
+
+</LinearLayout>
