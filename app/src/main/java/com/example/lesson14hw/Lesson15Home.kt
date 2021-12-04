@@ -98,8 +98,14 @@ class Lesson15Home : AppCompatActivity() {
         deleteButton.setOnClickListener {
             Singleton.list.removeAt(i)
             i--
-            val mySingletonElement = Singleton.printVarName(i)
-            outputTV.text = information(mySingletonElement)
+            if (i < 0) {
+                outputTV.text = "Начало"
+                previousButton.isClickable = false
+                deleteButton.isClickable = false
+            } else{
+                val mySingletonElement = Singleton.printVarName(i)
+                outputTV.text = information(mySingletonElement)
+            }
         }
     }
 }
