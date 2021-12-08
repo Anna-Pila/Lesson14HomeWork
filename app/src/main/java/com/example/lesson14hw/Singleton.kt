@@ -6,13 +6,13 @@ object Singleton {
     }
 
     lateinit var variableName: Salon
-    val list: MutableList<Salon> = mutableListOf()
+    val listSalonSingleton: MutableList<Salon> = mutableListOf()
 
     fun addVarName() {
-        list.add(variableName)
+        listSalonSingleton.add(variableName)
     }
 
     fun printVarName(i:Int): Salon {
-        return list[i]
+        return listSalonSingleton[i]
     }
 }

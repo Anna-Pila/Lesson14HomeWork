@@ -5,10 +5,9 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/task1"
+        android:id="@+id/task"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="lesson15"
-        android:text="Lesson15Home" />
+        android:text="Lesson16Home" />
 
 </LinearLayout>

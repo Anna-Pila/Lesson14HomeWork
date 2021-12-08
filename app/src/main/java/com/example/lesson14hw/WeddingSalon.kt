@@ -2,6 +2,7 @@ package com.example.lesson14hw
 
 class WeddingSalon(
     name: String,
+    city: City,
     minServicePrice: Double,
     maxServicePrice: Double,
     individualDesign: Boolean,
@@ -9,6 +10,7 @@ class WeddingSalon(
     var saleOfDecorations: Boolean
 ) : SalonOfTailoring(
     name,
+    city,
     minServicePrice,
     maxServicePrice,
     individualDesign
